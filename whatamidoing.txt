@@ -1,0 +1,15 @@
+Make wikipedia
+Here are a few requirements:
+              
+              When a user clicks a single article in the list, the details show the article’s:
+                  Title
+                  Author
+                  Content
+                  Tags
+                  Date (createdAt)
+              You’ll have to:
+                  Make a fetch request to the /wiki/:slug endpoint for the specific article.
+                  Set the article data on state (a new piece of state)
+                  Render the article data in a component
+              If a user clicks a “Back to Wiki List” button, the view shows original list of all the articles, 
+              no details (just title)
